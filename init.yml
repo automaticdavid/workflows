@@ -1,0 +1,6 @@
+---
+name: Init
+hosts: all
+tasks:
+  - debug:
+      msg: "Init" 
