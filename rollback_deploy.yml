@@ -1,0 +1,6 @@
+---
+name: Rollback Deploy
+hosts: all
+tasks:
+  - debug:
+      msg: "Rollback Deploy" 
