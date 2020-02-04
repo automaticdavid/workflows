@@ -1,0 +1,6 @@
+---
+name: Rollback Provision
+hosts: all
+tasks:
+  - debug:
+      msg: "Rollback Provision" 
