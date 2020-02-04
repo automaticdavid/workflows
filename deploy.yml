@@ -1,0 +1,6 @@
+---
+name: Deploy
+hosts: all
+tasks:
+  - debug:
+      msg: "Deploy" 
