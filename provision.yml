@@ -1,0 +1,6 @@
+---
+name: Provision
+hosts: all
+tasks:
+  - debug:
+      msg: "Provision" 
