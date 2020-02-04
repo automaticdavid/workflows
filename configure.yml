@@ -1,0 +1,6 @@
+---
+name: Configure
+hosts: all
+tasks:
+  - debug:
+      msg: "Configure" 
